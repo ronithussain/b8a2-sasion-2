@@ -27,4 +27,27 @@
         "d";
         max-width: 80%;
     }
+    /* ____________play-section___________ */
+    .play-main{
+      flex-direction: column;
+    }
+    .play-left{
+        width: 100%;
+    }
+    .play-left h1{
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 10px;
+
+    }
+    .play-left p{
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .play-right{
+        width: 80%;
+    }
+
 }

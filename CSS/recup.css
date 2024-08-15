@@ -155,3 +155,43 @@
 .online-card img:hover{
     filter: brightness(50%);
 }
+/* ____________play-section___________ */
+.play-main{
+    /* border: 2px solid red; */
+    max-width: 1200px;
+    margin: 0 auto 100px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    background-image: url("../images/Group\ 14.png");
+    background-repeat: no-repeat;
+}
+.play-left{
+    width: 40%;
+    margin: 0 auto;
+}
+.play-left h1{
+    text-align: right;
+    width: 300px;
+}
+.play-left p{
+    text-align: right;
+    width: 300px;
+    margin-top: 10px;
+
+}
+.play-right{
+    width: 40%;
+    position: relative;
+}
+.play-right img{
+    width: 100%;
+}
+.play-right .biral{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: -20%;
+    bottom: -15%;
+}
