@@ -195,3 +195,67 @@
     left: -20%;
     bottom: -15%;
 }
+/* ____________games-section___________ */
+.games-main{
+    /* border: 2px solid red; */
+    max-width: 1200px;
+    margin: 0 auto 100px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.games-right{
+    width: 40%;
+    /* margin: 0 auto; */
+}
+.games-right h1{
+    text-align: left;
+    width: 300px;
+}
+.games-right p{
+    text-align: justify;
+    width: 300px;
+    margin-top: 10px;
+
+}
+.games-left{
+    width: 40%;
+    position: relative;
+}
+.games-left img{
+    width: 100%;
+}
+.games-left .biral{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    right: -20%;
+    bottom: -15%;
+}
+/* ____________cetegory-section____________ */
+.cetegory-main{
+    max-width: 1200px;
+    margin: 100px auto;
+    /* border: 2px solid green; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap:20px;
+    row-gap: 20px;
+}
+.cetegory-child{
+    /* border: 2px solid red; */
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 2px;
+    flex-basis: 200px;
+   
+}
+.cetegory-child img{
+    width: 40px;
+}
+.cetegory-child:hover{
+    outline: 1px solid indigo;
+}
